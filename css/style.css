@@ -28,7 +28,7 @@
   }
 
   main {
-    width: 40vh;
+    width: 25vh;
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
@@ -174,7 +174,7 @@
 
   .price-container {
     margin: 1rem auto;
-    width: 85%;
+    width: 80%;
     border-radius: 15px;
     padding: 1rem;
     background: var(--Very-pale-blue);
