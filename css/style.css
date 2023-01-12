@@ -20,7 +20,7 @@
 }
 
 body {
-  background: url("./images/pattern-background-mobile.svg") no-repeat top/cover;
+  background: url("../images/pattern-background-mobile.svg") no-repeat top/cover;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 #img-container {
-  content: url("images/illustration-hero.svg");
+  content: url("../images/illustration-hero.svg");
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   max-width: 100%;
