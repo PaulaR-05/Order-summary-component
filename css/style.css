@@ -18,7 +18,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-@media (max-width: 800px) {
+@media (max-width: 748px) {
   body {
     background: url("../images/pattern-background-mobile.svg") no-repeat top
       left/cover;
@@ -29,7 +29,7 @@
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
-    width: 50vh;
+    width: 375px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -59,20 +59,21 @@
 
   .price-container {
     margin: 1rem auto;
-    width: 88%;
+    width: 85%;
     border-radius: 15px;
     padding: 1rem;
     background: var(--Very-pale-blue);
     color: var(--Desaturated-blue);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     font-size: 13px;
   }
 
   .middle-container {
-    display: block;
-    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
     color: var(--Dark-blue);
     font-weight: 900;
   }
@@ -114,7 +115,7 @@
     font-size: 14px;
   }
 }
-@media (min-width: 800px) {
+@media (min-width: 748px) {
   body {
     background: url("../images/pattern-background-desktop.svg") no-repeat
       top/cover;
@@ -163,6 +164,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
     font-size: 14px;
   }
 
@@ -173,7 +175,8 @@
   }
 
   .middle-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-left: 1.2rem;
     color: var(--Dark-blue);
     font-weight: 900;
