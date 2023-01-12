@@ -57,7 +57,7 @@ article p {
 
 .price-container {
   margin: 1rem auto;
-  width: 85%;
+  width: 87%;
   border-radius: 15px;
   padding: 1rem;
   background: var(--Very-pale-blue);
@@ -82,13 +82,14 @@ span {
 button {
   background: var(--Bright-blue);
   color: white;
-  width: 85%;
+  width: 87%;
   padding: 1rem 2rem;
   border: none;
   margin: 0.5rem auto 1rem;
   border-radius: 15px;
   font-weight: 900;
   font-family: "Red Hat Display", sans-serif;
+  box-shadow: 2px 2px 2px rgb(216, 214, 214);
 }
 .proceedtoPayment {
   margin-bottom: 1.4rem;
