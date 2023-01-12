@@ -28,7 +28,7 @@ main {
   text-align: center;
   margin: 3vh auto;
   border-radius: 15px;
-  width: 55vh;
+  width:50vh;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -45,10 +45,11 @@ main {
 article h1 {
   padding: 2rem 2rem 0;
   font-weight: 900;
+  color:var(--Dark-blue);
 }
 
 article p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 500;
   padding: 0.8rem 2rem 0;
   line-height: 1.5;
@@ -57,7 +58,7 @@ article p {
 
 .price-container {
   margin: 1rem auto;
-  width: 87%;
+  width: 88%;
   border-radius: 15px;
   padding: 1rem;
   background: var(--Very-pale-blue);
@@ -65,12 +66,20 @@ article p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
 }
 
-span {
+.middle-container{
+  display:block;
+  margin-left:1.2rem;
+  color:var(--Dark-blue);
   font-weight: 900;
-  color: var(--Dark-blue);
+}
+
+.price-tag{
+  text-decoration: line-through;
+  color:var(--Desaturated-blue);
+  font-weight: 500;
 }
 
 .price-container a {
@@ -103,6 +112,7 @@ button {
   padding: 1rem 2rem;
   font-size: 14px;
 }
+
 @media (min-width: 800px) {
   body {
     background: url("../images/pattern-background-desktop.svg") no-repeat center top left/cover;
@@ -154,15 +164,26 @@ button {
     font-size: 14px;
   }
   
-  span {
-    font-weight: 900;
-    color: var(--Dark-blue);
-  }
-  
   .price-container a {
     color: var(--Bright-blue);
     font-weight: 900;
-    padding-left: 2rem;
+    padding-left: 3rem;
+  }
+
+  .middle-container{
+    display:block;
+    margin-left:1.2rem;
+  }
+
+  .middle-container{
+    color:var(--Dark-blue);
+    font-weight: 900;
+  }
+
+  .price-tag{
+    text-decoration: line-through;
+    color:var(--Desaturated-blue);
+    font-weight: 500;
   }
   
   button {
