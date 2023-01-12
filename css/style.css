@@ -20,7 +20,7 @@
 }
 
 body {
-  background: url("../images/pattern-background-mobile.svg") no-repeat top/cover;
+  background: url("../images/pattern-background-mobile.svg") no-repeat top left/cover;
   font-family: "Red Hat Display", sans-serif;
 }
 
@@ -102,4 +102,91 @@ button {
   margin: 0 auto;
   padding: 1rem 2rem;
   font-size: 14px;
+}
+@media (min-width: 800px) {
+  body {
+    background: url("../images/pattern-background-desktop.svg") no-repeat center top left/cover;
+    font-family: "Red Hat Display", sans-serif;
+  }
+  
+  main {
+    text-align: center;
+    margin: 3vh auto;
+    border-radius: 15px;
+    width: 60vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #img-container {
+    content: url("../images/illustration-hero.svg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  article h1 {
+    padding: 2rem 2rem 0;
+    font-weight: 900;
+    color:var(--Dark-blue);
+  }
+  
+  article p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.8rem 3.5rem 0;
+    line-height: 1.5;
+    color: var(--Desaturated-blue);
+  }
+  
+  .price-container {
+    margin: 1rem auto;
+    width: 80%;
+    border-radius: 15px;
+    padding: 1rem;
+    background: var(--Very-pale-blue);
+    color: var(--Desaturated-blue);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  span {
+    font-weight: 900;
+    color: var(--Dark-blue);
+  }
+  
+  .price-container a {
+    color: var(--Bright-blue);
+    font-weight: 900;
+    padding-left: 2rem;
+  }
+  
+  button {
+    display:block;
+    background: var(--Bright-blue);
+    color: white;
+    width: 80%;
+    padding: 1rem 2rem;
+    border: none;
+    margin: 0.5rem auto 1rem;
+    border-radius: 15px;
+    font-weight: 900;
+    font-family: "Red Hat Display", sans-serif;
+    box-shadow: 2px 2px 2px rgb(216, 214, 214);
+  }
+  .proceedtoPayment {
+    margin-bottom: 1.4rem;
+  }
+  .cancelOption {
+    color: var(--Desaturated-blue);
+    text-decoration: none;
+    font-family: "Red Hat Display", sans-serif;
+    font-weight: 900;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    font-size: 14px;
 }
