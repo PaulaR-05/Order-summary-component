@@ -14,7 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 390px) {
   * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@
   }
 
   main {
-    width: 25vh;
+    width: 300px;
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
@@ -128,7 +128,7 @@
     color: hsl(210, 2%, 21%);
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 390px) {
   * {
     margin: 0;
     padding: 0;
