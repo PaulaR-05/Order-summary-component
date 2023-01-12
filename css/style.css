@@ -14,7 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 390px) {
   * {
     margin: 0;
     padding: 0;
@@ -24,10 +24,11 @@
     background: url("../images/pattern-background-mobile.svg") no-repeat top
       left/cover;
     font-family: "Red Hat Display", sans-serif;
+    width: 375px;
   }
 
   main {
-    width: 65vh;
+    width: 50vh;
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
@@ -116,7 +117,7 @@
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 390px) {
   * {
     margin: 0;
     padding: 0;
@@ -130,9 +131,9 @@
 
   main {
     text-align: center;
-    margin: 3vh auto;
+    margin: 1vh auto;
     border-radius: 15px;
-    width: 60vh;
+    width: 50vh;
     background-color: white;
     display: flex;
     flex-direction: column;
