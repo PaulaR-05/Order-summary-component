@@ -14,7 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 375px) {
   * {
     margin: 0;
     padding: 0;
@@ -52,7 +52,7 @@
   }
 
   article p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     padding: 0.8rem 4rem 0;
     line-height: 1.5;
@@ -63,14 +63,13 @@
     margin: 1rem auto;
     width: 90%;
     border-radius: 15px;
-    padding: 1rem;
     background: var(--Very-pale-blue);
     color: var(--Desaturated-blue);
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .middle-container {
@@ -91,6 +90,10 @@
     font-weight: 900;
   }
 
+  .price-container a:hover {
+    color: hsl(224, 23%, 55%);
+  }
+
   button {
     background: var(--Bright-blue);
     color: white;
@@ -102,6 +105,11 @@
     font-weight: 900;
     font-family: "Red Hat Display", sans-serif;
     box-shadow: 2px 2px 2px rgb(216, 214, 214);
+  }
+
+  button:hover {
+    background: hsl(223, 47%, 23%);
+    cursor: pointer;
   }
   .proceedtoPayment {
     margin-bottom: 1.4rem;
@@ -115,8 +123,12 @@
     padding: 1rem 2rem;
     font-size: 14px;
   }
+
+  .cancelOption:hover {
+    color: hsl(210, 2%, 21%);
+  }
 }
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 375px) {
   * {
     margin: 0;
     padding: 0;
@@ -132,7 +144,7 @@
     text-align: center;
     margin: 1vh auto;
     border-radius: 15px;
-    width: 50vh;
+    width: 60vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -153,7 +165,7 @@
   }
 
   article p {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     padding: 0.8rem 2rem 0;
     line-height: 1.5;
@@ -170,7 +182,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     font-size: 14px;
   }
 
@@ -180,10 +192,13 @@
     padding-left: 1rem;
   }
 
+  .price-container a:hover {
+    color: hsl(224, 23%, 55%);
+  }
+
   .middle-container {
     display: flex;
     flex-direction: column;
-    margin-left: 1.2rem;
     color: var(--Dark-blue);
     font-weight: 900;
   }
@@ -207,6 +222,10 @@
     font-family: "Red Hat Display", sans-serif;
     box-shadow: 2px 2px 2px rgb(216, 214, 214);
   }
+  button:hover {
+    background: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
   .proceedtoPayment {
     margin-bottom: 1.4rem;
   }
@@ -218,5 +237,8 @@
     margin: 0 auto;
     padding: 1rem 0rem;
     font-size: 14px;
+  }
+  .cancelOption:hover {
+    color: hsl(210, 2%, 21%);
   }
 }
