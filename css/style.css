@@ -61,14 +61,14 @@
 
   .price-container {
     margin: 1rem auto;
-    width: 85%;
+    width: 90%;
     border-radius: 15px;
     padding: 1rem;
     background: var(--Very-pale-blue);
     color: var(--Desaturated-blue);
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
     font-size: 13px;
   }
@@ -89,13 +89,12 @@
   .price-container a {
     color: var(--Bright-blue);
     font-weight: 900;
-    padding-left: 1rem;
   }
 
   button {
     background: var(--Bright-blue);
     color: white;
-    width: 87%;
+    width: 90%;
     padding: 1rem 2rem;
     border: none;
     margin: 0.5rem auto 1rem;
@@ -163,7 +162,7 @@
 
   .price-container {
     margin: 1rem auto;
-    width: 80%;
+    width: 85%;
     border-radius: 15px;
     padding: 1rem;
     background: var(--Very-pale-blue);
@@ -171,14 +170,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     font-size: 14px;
   }
 
   .price-container a {
     color: var(--Bright-blue);
     font-weight: 900;
-    padding-left: 3rem;
+    padding-left: 1rem;
   }
 
   .middle-container {
