@@ -27,7 +27,7 @@
   }
 
   main {
-    width: 40vh;
+    width: 60vh;
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
@@ -116,7 +116,7 @@
     font-size: 14px;
   }
 }
-@media (min-width: 748px) {
+@media (min-width: 600px) {
   * {
     margin: 0;
     padding: 0;
