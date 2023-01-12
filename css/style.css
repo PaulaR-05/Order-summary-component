@@ -29,7 +29,7 @@
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
-    width: 375px;
+    width: 45vh;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@
   article p {
     font-size: 14px;
     font-weight: 500;
-    padding: 0.8rem 2rem 0;
+    padding: 0.8rem 1.1rem 0;
     line-height: 1.5;
     color: var(--Desaturated-blue);
   }
