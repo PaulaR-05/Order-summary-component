@@ -173,9 +173,6 @@ button {
   .middle-container{
     display:block;
     margin-left:1.2rem;
-  }
-
-  .middle-container{
     color:var(--Dark-blue);
     font-weight: 900;
   }
