@@ -27,7 +27,7 @@
   }
 
   main {
-    width: 30vh;
+    width: 40vh;
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
@@ -132,7 +132,7 @@
     text-align: center;
     margin: 3vh auto;
     border-radius: 15px;
-    width: 60vh;
+    width: 55vh;
     background-color: white;
     display: flex;
     flex-direction: column;
