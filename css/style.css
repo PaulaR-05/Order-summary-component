@@ -14,7 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 768px) {
   * {
     margin: 0;
     padding: 0;
@@ -25,6 +25,7 @@
       left/cover;
     font-family: "Red Hat Display", sans-serif;
     width: 375px;
+    margin: 0 auto;
   }
 
   main {
@@ -54,15 +55,16 @@
   article p {
     font-size: 14px;
     font-weight: 500;
-    padding: 0.8rem 4rem 0;
+    padding: 0.8rem 2rem 0;
     line-height: 1.5;
     color: var(--Desaturated-blue);
   }
 
   .price-container {
     margin: 1rem auto;
-    width: 90%;
+    width: 80%;
     border-radius: 15px;
+    padding: 1rem;
     background: var(--Very-pale-blue);
     color: var(--Desaturated-blue);
     display: flex;
@@ -97,7 +99,7 @@
   button {
     background: var(--Bright-blue);
     color: white;
-    width: 90%;
+    width: 80%;
     padding: 1rem 2rem;
     border: none;
     margin: 0.5rem auto 1rem;
@@ -128,7 +130,7 @@
     color: hsl(210, 2%, 21%);
   }
 }
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 768px) {
   * {
     margin: 0;
     padding: 0;
