@@ -170,7 +170,7 @@
     margin: 1rem auto 1.5rem;
     line-height: 1.5;
     text-align: center;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
     font-size: 14px;
     font-weight: 500;
     color: var(--Desaturated-blue);
@@ -293,6 +293,33 @@
 }
 
 @media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: url("../images/pattern-background-mobile.svg") no-repeat left
+      top/cover;
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+  main {
+    background-color: white;
+    max-width: 45%;
+    text-align: center;
+    margin: 1vh auto;
+    padding-bottom: 4vh;
+    border: none;
+    border-radius: 15px;
+  }
+
+  main p {
+    padding: 0 1rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
   * {
     margin: 0;
     padding: 0;
