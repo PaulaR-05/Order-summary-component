@@ -145,121 +145,6 @@
 
   main {
     text-align: center;
-    margin: 3vh auto;
-    border-radius: 15px;
-    width: 60vh;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-  }
-
-  #img-container {
-    content: url("../images/illustration-hero.svg");
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    max-width: 100%;
-    width: 100%;
-  }
-
-  article h1 {
-    padding: 2rem 2rem 0;
-    font-weight: 900;
-    color: var(--Dark-blue);
-  }
-
-  article p {
-    font-size: 13px;
-    margin: 0 auto;
-    font-weight: 500;
-    padding: 0.5rem 2rem 0rem;
-    line-height: 1.5;
-    color: var(--Desaturated-blue);
-  }
-
-  .price-container {
-    margin: 1rem auto;
-    width: 85%;
-    border-radius: 15px;
-    padding: 1rem;
-    background: var(--Very-pale-blue);
-    color: var(--Desaturated-blue);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 14px;
-  }
-
-  .price-container a {
-    color: var(--Bright-blue);
-    font-weight: 900;
-  }
-
-  .price-container a:hover {
-    color: hsl(224, 23%, 55%);
-  }
-
-  .middle-container {
-    display: flex;
-    flex-direction: column;
-    color: var(--Dark-blue);
-    font-weight: 900;
-  }
-
-  .price-tag {
-    text-decoration: line-through;
-    color: var(--Desaturated-blue);
-    font-weight: 500;
-  }
-
-  button {
-    display: block;
-    background: var(--Bright-blue);
-    color: white;
-    width: 85%;
-    padding: 1rem 2rem;
-    border: none;
-    margin: 0.5rem auto 1rem;
-    border-radius: 15px;
-    font-weight: 900;
-    font-family: "Red Hat Display", sans-serif;
-    box-shadow: 2px 2px 2px rgb(216, 214, 214);
-  }
-  button:hover {
-    background: hsl(223, 47%, 23%);
-    cursor: pointer;
-  }
-  .proceedtoPayment {
-    margin-bottom: 1.4rem;
-  }
-  .cancelOption {
-    color: var(--Desaturated-blue);
-    text-decoration: none;
-    font-family: "Red Hat Display", sans-serif;
-    font-weight: 900;
-    margin: 0 auto;
-    padding: 1rem 0rem;
-    font-size: 14px;
-  }
-  .cancelOption:hover {
-    color: hsl(210, 2%, 21%);
-  }
-}
-
-@media only screen and (min-width: 1020px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    background: url("../images/pattern-background-desktop.svg") no-repeat
-      top/cover;
-    font-family: "Red Hat Display", sans-serif;
-  }
-
-  main {
-    text-align: center;
     margin: 2vh auto;
     border-radius: 15px;
     width: 60vh;
@@ -277,15 +162,15 @@
   }
 
   article h1 {
-    padding: 2rem 2rem 0;
+    padding: 2rem 1rem 0;
     font-weight: 900;
     color: var(--Dark-blue);
   }
 
   article p {
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    padding: 0.8rem 2rem 0;
+    padding: 0.8rem 3rem 0rem;
     line-height: 1.5;
     color: var(--Desaturated-blue);
   }
