@@ -14,7 +14,7 @@
   color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 600px) {
   * {
     margin: 0;
     padding: 0;
@@ -28,10 +28,10 @@
 
   main {
     background-color: white;
-    width: 41vh;
+    width: 55%;
     text-align: center;
     margin: 1vh auto;
-    padding-bottom: 3.5vh;
+    padding-bottom: 4vh;
     border: none;
     border-radius: 15px;
   }
@@ -44,22 +44,23 @@
   }
 
   article h1 {
-    margin: 3vh auto 1vh;
+    margin: 4vh auto 1vh;
     color: var(--Dark-blue);
     font-weight: 900;
   }
 
   article p {
-    margin: 0 auto 1rem;
+    margin: 1rem auto 1.5rem;
+    line-height: 1.5;
     text-align: center;
-    padding: 0rem 1rem;
+    padding: 0rem 2.7rem;
     font-size: 14px;
     font-weight: 500;
     color: var(--Desaturated-blue);
   }
 
   .price-container {
-    width: 90%;
+    width: 80%;
     padding: 1.5vh;
     font-size: 14px;
     text-align: center;
@@ -69,7 +70,7 @@
     background-color: var(--Very-pale-blue);
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
   }
 
@@ -77,13 +78,13 @@
     color: var(--Bright-blue);
     font-weight: 700;
     padding-left: 3.5vh;
+    cursor: pointer;
   }
   .middle-container {
     display: block;
     margin-left: 0.5vh;
     color: var(--Dark-blue);
     font-weight: 900;
-    margin-left: 2vh;
   }
 
   .price-tag {
@@ -92,13 +93,14 @@
     font-weight: 500;
   }
 
-  .price-tag:hover {
-    color: var(--Dark-blue);
+  .price-container a:hover {
+    color: var(--Desaturated-blue);
   }
 
   .proceedtoPayment button {
-    margin: 3vh auto 2.5vh;
-    width: 90%;
+    display: block;
+    margin: 4vh auto 3vh;
+    width: 80%;
     border-radius: 8px;
     background: var(--Bright-blue);
     padding: 2vh;
@@ -107,17 +109,22 @@
     font-weight: 700;
     letter-spacing: 1px;
     font-family: "Red Hat Display", sans-serif;
+    cursor: pointer;
   }
 
   .proceedtoPayment button:hover {
-    background: var(--Dark-blue);
+    background: hsl(223, 22%, 49%);
   }
   .proceedtoPayment a {
+    font-size: 14px;
     letter-spacing: 1px;
     margin: 0vh auto 4vh;
     color: var(--Desaturated-blue);
     text-decoration: none;
     font-weight: 700;
     font-family: "Red Hat Display", sans-serif;
+  }
+  .proceedtoPayment a:hover {
+    color: rgb(102, 101, 101);
   }
 }
