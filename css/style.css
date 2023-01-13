@@ -24,11 +24,12 @@
     background: url("../images/pattern-background-mobile.svg") no-repeat left
       top/cover;
     font-family: "Red Hat Display", sans-serif;
+    max-width: 100vh;
   }
 
   main {
     background-color: white;
-    width: 55%;
+    width: 70%;
     text-align: center;
     margin: 1vh auto;
     padding-bottom: 4vh;
