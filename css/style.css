@@ -21,10 +21,8 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
-    max-width: 100vh;
   }
 
   main {
@@ -137,8 +135,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
   }
 
@@ -253,8 +250,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
   }
 
@@ -276,8 +272,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
   }
 
@@ -299,8 +294,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
   }
 
@@ -326,8 +320,7 @@
     box-sizing: border-box;
   }
   body {
-    background: url("../images/pattern-background-mobile.svg") no-repeat left
-      top/cover;
+    background: var(--Pale-blue) no-repeat left top/contain;
     font-family: "Red Hat Display", sans-serif;
   }
 
