@@ -54,14 +54,14 @@
     margin: 1rem auto 1.5rem;
     line-height: 1.5;
     text-align: center;
-    padding: 0rem 2.7rem;
+    padding: 0rem 1rem;
     font-size: 14px;
     font-weight: 500;
     color: var(--Desaturated-blue);
   }
 
   .price-container {
-    width: 80%;
+    width: 85%;
     padding: 1.5vh;
     font-size: 14px;
     text-align: center;
@@ -78,7 +78,7 @@
   .price-container a {
     color: var(--Bright-blue);
     font-weight: 700;
-    padding-left: 3.5vh;
+    padding-left: 1.5vh;
     cursor: pointer;
   }
   .middle-container {
@@ -101,7 +101,7 @@
   .proceedtoPayment button {
     display: block;
     margin: 4vh auto 3vh;
-    width: 80%;
+    width: 85%;
     border-radius: 8px;
     background: var(--Bright-blue);
     padding: 2vh;
