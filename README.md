@@ -13,7 +13,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ## Overview
 
-Here is my solution to the Interactive rating component ✨
+Here is my solution to the Order summary card solution ✨
 
 😊 Happy to hear any feedback and advice. Thanks!
 
